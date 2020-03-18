@@ -7,7 +7,7 @@
 Use the composer package manager:
 
 ```bash
-composer require bclibraries/fulltext-finder:^1.0
+composer require bclibraries/libraryh3lp:^1.0
 ```
 
 ## Usage
