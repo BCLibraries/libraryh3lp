@@ -1,0 +1,28 @@
+{
+  "name": "bclibraries/libraryh3lp",
+  "description": "Links to LibraryH3lp",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Florin",
+      "email": "benjamin.florin@bc.edu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BCLib\\LibraryH3lp\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "ext-dom": "*",
+    "ext-redis": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.26"
+    }
+  }
+}
